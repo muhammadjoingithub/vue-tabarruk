@@ -1,6 +1,6 @@
 <template>
   <div class="language-switcher max-md:hidden">
-    <img src="" alt="icon" />
+    <img src="/public/images/rusia.png" alt="icon" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link to="/"><img class="another" src="/public/images/menu.png" alt="logo" /></router-link>
+    <router-link to="/"><img class="another" src="/public/images/headlogo.png" alt="logo" /></router-link>
   </div>
 </template>
 
@@ -8,8 +8,5 @@
 
 
 <style scoped>
-.another{
-   background-color: red;
-  
-}
+
 </style>

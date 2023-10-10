@@ -1,8 +1,8 @@
 <template>
   <div>
-    <header class="bg-hero-pattern bg-center bg-cover h-screen max-md:h-auto">
-      <div class="container">
-        <div class="flex justify-between items-center">
+    <header class="bg-hero-pattern headpanel bg-center bg-cover h-screen max-md:h-auto">
+      <div class=" nobody">
+        <div class="flex container justify-between items-center">
           <div class="logo max-md:w-4/5">
             <Logo />
           </div>
@@ -33,6 +33,16 @@
       </div>
     </header>
   </div>
+  <NewsComp :news="news" />
+    <div class="container flex justify-between max-md:flex-col gap-4 max-lg:flex-wrap">
+    <InfoComponent
+      v-for="(el, idx) in countryInfo"
+      :key="idx"
+      :img="el.img"
+      :count="el.count"
+      :info="el.info"
+    />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -43,9 +53,14 @@ import Button from '@/components/Button.vue'
 import CInput from '@/components/Input.vue'
 import Search from '@/components/Search.vue'
 import Logo from '@/components/Logo.vue'
+import NewsComp from '@/components/NewsComp.vue'
+
+import InfoComponent from '@/components/InfoComponent.vue'
 
 
-import { onMounted, ref } from 'vue'
+
+import { ref, reactive, onMounted } from 'vue'
+
 import { useCounterStore } from '@/stores/counter'
 const input = ref('')
 const store = useCounterStore()
@@ -53,6 +68,26 @@ const store = useCounterStore()
 const showSearchBar = () => {
   store.searchBar = !store.searchBar
 }
+
+
+
+const countryInfo = reactive([
+  { img: '/public/images/bir1.png', info: 'Attractions', count: 142 },
+  { img: '/public/images/bir2.png', info: 'Destinations', count: 254 },
+  { img: '/public/images/bir3.png', info: 'Countries', count: 7 },
+  { img: '/public/images/bir4.png', info: 'Religions', count: 3 }
+])
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.headpanel{
+  height: 100vh;
+  background-image: url(/public/images/headerpng.png);
+}
+.nobody{
+  height: 100vh;
+
+  background: linear-gradient(180deg, #07091C -4.12%, rgba(7, 9, 28, 0.60) 49.39%, rgba(7, 9, 28, 0.20) 85.78%, #07091C 100%);
+
+}
+</style>

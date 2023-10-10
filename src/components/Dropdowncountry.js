@@ -1,38 +1,38 @@
 export const Dropdowncountry = [
     {
       id: 1,
-      flag: '/public/images/uzbeks.png',
+      flag: '/public/images/uzbekistan.png',
       country: 'Uzbekistan',
       destination: 32
     },
     { id: 1, 
-        flag: '/public/images/turkiye2.png',
+        flag: '/public/images/turkiye.png',
         country: 'Türkiye',
          destination: 27 },
     {
       id: 2,
-      flag: '/public/images/turkmen2.png',
+      flag: '/public/images/turkmen.png',
       country: 'Turkmenistan',
       destination: 27
     },
     {
       id: 3,
-      flag: '/public/images/azeri.png',
+      flag: '/public/images/azerbayjan.png',
       country: 'Azerbaijan',
       destination: 12
     },
     { id: 4,
-         flag: '/public/images/hungary.png', 
+         flag: '/public/images/madyar.png', 
     country: 'Hungary', destination: 19 },
     {
       id: 5,
-      flag: '/public/images/kazakhi.png',
+      flag: '/public/images/kazakh.png',
       country: 'Kazakhstan',
       destination: 21
     },
     {
       id: 6,
-      flag: '/public/images/kyrgiz.png',
+      flag: '/public/images/kirgyz.png',
       country: 'Kyrgyzstan',
       destination: 9
     }

@@ -1,6 +1,6 @@
 <template>
   <div class="search-panel max-md:hidden">
-    <i class="fas fa-search text-white cursor-pointer"></i>
+   <img src="/public/images/search.svg" alt="">
   </div>
 </template>
 
