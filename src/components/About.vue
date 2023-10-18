@@ -13,11 +13,11 @@
                     <p class="supports">Our supporters</p>
                     <div class="two-images">
                         <div class="new-responseimg">
-                            <img src="../assets/images/flag.png" alt="">
+                            <img src="/public/images/flag.png" alt="">
                             <p>Ministry of Tourism and Cultural Heritage of the Republic of Uzbekistan</p>
                         </div>
                         <div class="new-responseimg">
-                            <img src="../assets/images/huma.png" alt="">
+                            <img src="/public/images/huma.png" alt="">
                             <p>Organization of Turkic states</p>
                         </div>
                     </div>
