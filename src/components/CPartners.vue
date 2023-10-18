@@ -29,7 +29,6 @@
 <script setup lang="ts">
 import {reactive} from 'vue'
 import Title from '@/components/Title.vue'
-
 interface Props {
   title: string
   descr: string

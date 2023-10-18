@@ -32,7 +32,6 @@
 <script setup lang="ts">
 import { ref,reactive,watch } from 'vue';
 const state = ref(false)
-
 import { Language } from '@/components/Language.js'
 const showCountries = () => {
   state.value = !state.value

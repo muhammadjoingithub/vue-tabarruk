@@ -3,7 +3,7 @@
     <div class="images flex gap-2">
       <div
         v-for="(el, idx) in sliders" :key="idx" class="new-slider " :class="[el.class, el.Active ? ' active' : '']" @mouseover="() => activeItem(el.id)">
-        <h3>{{ el.text }}</h3>
+        <h3 class="text-black">{{ el.text }}</h3>
       </div>
     </div>
   </div>
@@ -57,9 +57,12 @@ const activeItem = (id: number) => {
 .wrapper-img {
   overflow: hidden;
   width: 50%;
+  /* background-color: red */
 }
 .images {
   display: flex;
+  margin-top: 80px;
+  /* height: 100%; */
 }
 .new-slider {
   background-size: auto 110%;

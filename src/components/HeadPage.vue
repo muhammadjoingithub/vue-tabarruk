@@ -46,9 +46,7 @@
 </template>
 <script setup lang="ts">
 import { ref, reactive, onMounted } from 'vue'
-
 import SwitcherLang from '@/components/SwitcherLang.vue'
-// import NewSearch from '@/components/NewSearch.vue'
 import Navbar from "@/components/NavBar.vue"
 import About from "@/components/About.vue"
 import CNews from "@/components/CNews.vue"
@@ -75,10 +73,7 @@ const countryInfo = reactive([
   { img: '/public/images/bir1.png', info: 'Countries', count: 7 },
   { img: '/public/images/bir1.png', info: 'Religions', count: 3 }
 ]);
-
-
 </script>
-
 <style lang="scss" scoped>
 .headpanel{
   height: 100vh;
@@ -90,8 +85,6 @@ background: linear-gradient(180deg, #07091C -4.12%, rgba(7, 9, 28, 0.60) 49.39%,
 }
 .new-body{
     background-image: url(/public/images/bigsun.png);
-  // z-index: 5;
   background-repeat: no-repeat;
-  // background-position: left;
 }
 </style>
