@@ -1,7 +1,7 @@
 <template>
   <button
     :type="type"
-    class="py-3 px-7 flex gap-2 bg-red-600 rounded-lg active:scale-90 transition duration-200"
+    class="py-3 px-7 flex gap-2 bg-red-600 rounded-lg active:scale-90 transition duration-200 hover:bg-red-700"
     :class="[clasList, btnClass]"
   >
     <slot></slot>

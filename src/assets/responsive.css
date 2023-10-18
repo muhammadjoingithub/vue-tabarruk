@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Space+Mono&display=swap');
+
+
+@media screen and (max-width: 1200px){
+  
+  .none-searh{
+    display: none;
+
+  }  .decs{
+    display: none;
+   }
+    .search-panel{
+        display: none;
+    }  .wrapper-img {
+        width: 50% !important;
+      }
+    .new-aligntype{
+        display: none;
+    }
+    .ul{
+        display: none !important;
+       
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .news-boxes1{
+        width: 100% !important;
+    }
+
+    .hover-columns{
+        width: 40% !important;
+    }
+    .religion-box{
+        width: 50% !important;
+
+    }
+    .about2{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+    }
+    .about-us{
+        row-gap: 20px;
+    }
+    .info-p{
+        color: var(--White, #FFF);
+font-family: "Gilroy",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 18.2px */
+    }
+    .info-facts2{
+        color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'calt' off;
+text-shadow: 0px 4.474999904632568px 22.375px rgba(12, 15, 48, 0.40);
+font-family: "Playfair Display",serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+text-transform: capitalize;
+    }
+    .info-facts3{
+        color: var(--White, #FFF);
+text-align: center;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+width: 100%; /* 18.2px */
+    }
+    .info-facts4{
+        width: 22%;
+        
+    }
+    .countries-hover{
+        width: 100%;
+  
+    }
+    .hover-columns{
+         width: 100%;
+    }
+    
+
+}
+@media screen and (min-width: 576px){
+    .section6{
+        margin-top: -120px;
+       } 
+   .new-responseimg{
+    display: flex;
+
+   }
+
+   .two-images{
+    display: flex;
+   }
+   .scaner2{
+    display: none;
+}
+}
+@media screen and (max-width: 576px){
+    .scaner{
+        display: none;
+    }
+   .section6{
+    margin-top: -120px;
+   }
+   .blackButton{
+       left: 50% !important;
+       /* justify-self: center; */
+       margin-top: 10px;
+   }  .language{
+        display: none;
+    }  .wrapper-img {
+        width: 100% !important;
+      }
+    .info-facts4{
+        width: 50%;
+        
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .hover-columns{
+        width: 100% !important;
+    }
+    .religion-box{
+        width: 100% !important;
+
+    }
+    .about-us{
+        justify-content: center;
+    }
+    .text1{
+        font-size: 15px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    .logo-header img{
+        width: 38.95px;
+height: 38px;
+flex-shrink: 0;
+    }
+    .about1{
+        width: 100%;
+    }
+    .about-us{
+        gap: 30px;
+    }
+    .about1 h2{
+        color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'calt' off;
+text-shadow: 0px 10px 50px rgba(12, 15, 48, 0.40);
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 36.4px */
+    }
+    .text-about{
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 18.2px */
+    }
+    .new-responseimg p{
+        display: block;
+        color: #FFF;
+font-feature-settings: 'liga' off, 'calt' off;
+text-shadow: 0px 10px 50px rgba(12, 15, 48, 0.40);
+font-family: "Playfair Display",serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 20.8px */
+    }
+    .new-responseimg{
+       
+        display: flex;
+        align-items: center;
+        gap: 20px;  
+    }
+    .new-responseimg p{
+        color: #FFF;
+font-feature-settings: 'liga' off, 'calt' off;
+text-shadow: 0px 10px 50px rgba(12, 15, 48, 0.40);
+font-family: "Playfair Display",serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+margin-top: 20px; /* 20.8px */
+    }
+
+    .branches{
+        gap: 2px;
+        display: flex;
+        justify-content: space-evenly;
+        row-gap: 10px;
+        align-items: center;
+       
+
+    }
+
+    .branchname{
+        margin-top: 10px;
+    }
+    .slider-images{
+        border-radius: 8px;
+background: lightgray 50% / cover no-repeat;
+height: 170.883px;
+width: 17%;
+flex: 1 0 0;
+    }
+    .news-boxes1{
+        width: 100% !important;
+    }
+    .text0f-news1{
+        width: 100% !important;
+       
+    }
+    .text0f-news1 img{
+        width: 39% !important;
+       
+    }
+    .about2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textof21 h2{
+        font-size: 19px !important;
+    }
+    .first-child1{
+        display: none;
+    }
+    .last-child1{
+        margin-top: 1px;
+    }
+    .button-div{
+        position: relative;
+        left: 55% !important;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+    .footer-texts2{
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+
+        justify-content: start;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .language{
+        display: none;
+    }   .wrapper-img {
+        width: 100% !important;
+      }
+   .about1{
+    width: 100% !important;
+   
+   }
+   .about2{
+    width: 100% !important;
+   
+    justify-content: center;
+   }
+   .section4{
+    width: 100% !important;
+   }
+   .branches{
+    display: flex;
+    justify-content: center;
+   }
+.religion-box{
+    width: 45% !important;
+}
+.news-boxes{
+    width: 100% !important;
+}
+.news-boxes1{
+    width: 100% !important;
+}
+
+}
+@media screen and (max-width: 776px){
+    .language{
+        display: none;
+    }  .wrapper-img {
+        width: 100% !important;
+      }
+    .footer-texts2{
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+
+        justify-content: start;
+    }
+    .religion-box{
+        width: 100% !important;
+    }
+    .dropshadow{
+        position: relative;
+        left: 20%;
+    }
+    .hover-columns{
+        width: 100% !important;
+
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .news-boxes1{
+        width: 100% !important;
+    }
+    .first-child1{
+        display: none;
+    }
+    .textof21 h2{
+        font-size: 19px !important;
+    }
+    .text0f-news1 img{
+        width: 39% !important;
+       
+    }
+}
+@media screen and (max-width: 420px){
+    .text1{
+        margin-top: -15px;
+        font-size: 20px !important;
+    }
+    .text2{
+        font-size: 10px !important;
+    }
+    /* .logo-header{
+        width: 50%;
+        background-color: red;
+    } */
+    .logo-header img{
+        width: 38.95px;
+height: 38px;
+flex-shrink: 0;
+    }   .blackButton{
+        left: 40% !important;
+        /* justify-self: center; */
+        margin-top: 10px;
+    }  .language{
+        display: none;
+    } .wrapper-img {
+        width: 100% !important;
+      }
+    .another{
+        width: 300px;
+        height: 200px;
+    }
+  
+    .button-div{
+        position: relative;
+        left: 47% !important;
+        margin-top: 20px;
+    }
+    .news-boxes,.news-boxes1{
+        /* background-color: red; */
+        width: 100% !important;
+    }
+    .news-items{
+        /* background-color: yellow; */
+        padding: 1px !important;
+    }
+    .dropshadow{
+       
+    position: relative;
+    left: 1px;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .text1{
+        margin-top: -15px;
+        font-size: 20px !important;
+    }
+    .text2{
+        font-size: 10px !important;
+    }
+    /* .logo-header{
+        width: 50%;
+        background-color: red;
+    } */
+    .logo-header img{
+        width: 38.95px;
+height: 38px;
+flex-shrink: 0;
+    }   .blackButton{
+        left: 40% !important;
+        /* justify-self: center; */
+        margin-top: 10px;
+    } }
+
+
+.menu{
+    cursor: pointer;
+}
+  
+  
+  
+ 
+  

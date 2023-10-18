@@ -1,7 +1,7 @@
 <template>
   <ul class="flex gap-4 text-white max-lg:hidden relative">
     <li class="hover:opacity-40 font-bold transition-all">
-      <a href="#">About us</a>
+      <router-link to="/about">About us</router-link>
     </li>
     <li class="transition-all" @click="showCountries" @focusout="state = false">
       <a href="#" class="hover:opacity-40 font-bold">Countries</a>
@@ -49,7 +49,7 @@
       <a href="#">Heritage map</a>
     </li>
     <li class="hover:opacity-40 font-bold transition-all">
-      <a href="#">Help</a>
+      <router-link to="/help">Help</router-link>
     </li>
   </ul>
   
