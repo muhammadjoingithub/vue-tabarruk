@@ -1,5 +1,5 @@
 <template>
-  <div tabindex="0" @focusout="hideSearchBar" class="fixed w-[40%] right-20  none-searh transition-all">
+  <div tabindex="0" @focusout="hideSearchBar" class="fixed  right-20  none-searh transition-all">
     <div>
       <CInput
         type="text"
@@ -42,7 +42,7 @@ const filteredCities = computed(() => {
 const getResults = () => {
   if (search.value.length === 0) {
     showResults.value = false;
-    message.value = 'Sonuç bulunamadı';
+    message.value = 'Natija Topilmadi';
     return;
   }
 

@@ -13,7 +13,7 @@
       <a href="#" class="hover:opacity-40 font-bold  dec"><img src="/public/images/eng.png" alt=""></a>
       <ul
         :class="[state ? 'block' : 'hidden']"
-        class="absolute top-[12%] right-2 right-auto grid grid-cols-3 gap-2 bg-white/20 border border-white/30 backdrop-blur-xl rounded-xl p-2"
+        class="absolute w-[30%] top-[12%] left-[65%] grid grid-cols-3 gap-2 bg-white/20 border border-white/30 backdrop-blur-xl rounded-xl p-2"
       >
         <li
           v-for="(el, idx) in Language"

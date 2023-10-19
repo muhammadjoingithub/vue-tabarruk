@@ -2,7 +2,25 @@
 
 
 @media screen and (max-width: 1200px){
-  
+    .first-div,.second-div{
+        width: 100% !important;
+    }
+    .statements{
+        margin-top: 100px !important;
+    }
+
+    .cols{
+        width: 100% !important;
+    }
+    .video-box{
+        width: 95% !important;
+    }
+    .ex-img h3{
+        font-size: 15px !important;
+    }
+  .mission{
+    width: 100% !important;
+  }
   .none-searh{
     display: none;
 
@@ -261,6 +279,10 @@ flex: 1 0 0;
 
 }
 @media screen and (max-width: 992px){
+    .slide-cols{
+        width: 90% !important;
+        margin-top: 90px;
+    }
     .language{
         display: none;
     }   .wrapper-img {
