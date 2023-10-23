@@ -18,18 +18,17 @@
             </div>
             <p class="two">+998 71 200 7007</p>
         </div>
-        <div class="cols">
-            <img src="/public/images/mouseMounted1.png" alt="">
-            <center>
-                <img class="relative top-[-230px]" src="/public/images/mouseMounted2.png" alt="">
-            </center>
+        <div class="cols mt-3 h-[250px] w-[600px] max-lg:w-[400px] max-md:w-full">
+          <GoogleMaps/>
         </div>
     </div>
 </template>
 <script lang="ts" setup>
+import GoogleMaps from '@/components/SingleComponents/GoogleMaps.vue'
 
 </script>
 <style scoped>
+
 .cols h1{
   color: var(--White, #FFF);
 font-feature-settings: 'liga' off, 'calt' off;

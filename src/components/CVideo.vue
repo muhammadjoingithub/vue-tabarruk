@@ -2,39 +2,79 @@
   <div class="video">
     <div class="hoverType">
       <h1>Promo Video about Tabarruk ziyorat</h1>
-        <div v-if="isPlaying" class="video-box mx-auto relative top-[-200px] w-[57%]" >
-           <div class="ex-img flex justify-between ">
+<div>
+  <center>
+      <button @click="openModal">
+      <img @click="showModal" class="rela cursor-pointer" src="/public/images/iconplay.png" alt="" >
+    </button>
+  </center>
+  
+    <div v-if="isModalOpen" class="modal">
+      <div class="modal-content video-box relative  w-[57%]" >
+           <div class="ex-img flex justify-between">
              <h3>Turkiy mamlakatlarning qimmatli, tarixiy va merosi joylarini o'rganing</h3>
-             <img @click="stop" class="transition-all"  src="/public/images/Main/xmark-large.png" alt="">
+                <button @click="closeModal">         
+                 <img @click="stop" class="transition-all"  src="/public/images/Main/xmark-large.png" alt="">
+               </button>
            </div>
-          <iframe  width="100%" height="436" src="https://www.youtube.com/embed/qj69784Sr24" title="THE CELESTIAL TURKS Announcement Trailer | Khan's Den Season 3 Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      <center>
-        <img v-show="!isPlaying" class="rela cursor-pointer" src="/public/images/iconplay.png" alt="" @click="play">
-      </center>
+        <iframe v-if="url"  width="100%" height="436" :src="url" title="THE CELESTIAL TURKS Announcement Trailer | Khan's Den Season 3 Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
     </div>
   </div>
 </template>
-<script setup lang="ts">
-import { defineProps, ref } from 'vue';
+<script setup lang="ts">  
+import { defineProps, ref, computed } from 'vue';
 
 const props = defineProps({
   playState: Boolean,
 });
-
-const isPlaying = ref(false);
-
-const play = () => {
-  isPlaying.value = true;
+ 
+ const isModalOpen = ref(false);
+ function  closeModal(){
+  isModalOpen.value = false;
+  document.body.style.overflowY = 'scroll'
 };
+ 
+ function openModal(){
+  isModalOpen.value = true;
+  document.body.style.overflowY = 'hidden'
 
-const stop = () => {
-  isPlaying.value = false;
 };
+const link = ref("https://www.youtube.com/watch?v=aGgXbwq08Qg");
 
-
+const url = computed(() => {
+  if(link.value.includes("watch")){
+    const list = link.value?.split("watch?v=")
+    return list?.[0] + "embed/" + list?.[1]
+  }else{
+    return link.value
+  }
+})
 </script>
 <style scoped>
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
 .rela:hover{
     transform: scale(1.1);
 }

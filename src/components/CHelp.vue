@@ -1,6 +1,7 @@
 <template>
-       <div class="container m-auto p-5 grid grid-cols-2 max-lg:grid-cols-1 gap-6">
-       <Question
+       <div class="container  m-auto p-5  gap-6">
+     <div class="top-[50px] relative m-auto p-5 grid grid-cols-2 max-lg:grid-cols-1 gap-6">
+        <Question
         v-for="(el, idx) in accord"
         :key="idx"
         :descr="el.descr"
@@ -9,7 +10,9 @@
         :show="aItem === el.id"
         :title="el.title"
         @click="showType(el.id, el.show)"
+      
       />
+     </div>
     </div>
 </template>
 <script setup lang="ts">

@@ -5,6 +5,7 @@
     .first-div,.second-div{
         width: 100% !important;
     }
+   
     .statements{
         margin-top: 100px !important;
     }
@@ -277,6 +278,11 @@ flex: 1 0 0;
         justify-content: start;
     }
 
+}
+@media screen and (min-width: 992px){
+    .lg{
+        display: none !important;
+    }
 }
 @media screen and (max-width: 992px){
     .slide-cols{

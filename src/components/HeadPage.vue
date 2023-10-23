@@ -2,9 +2,10 @@
   <div>
     <header class="bg-hero-pattern headpanel bg-center bg-cover h-screen max-md:h-auto">
       <div class=" nobody">
-       <div class="new-body">
-         <div class="text-center h-[75vh] flex flex-col items-center justify-center text-white">
-          <p><i class="fa-solid fa-location-dot mx-1"></i>Samarkand, Uzbekistan</p>
+       <div class="new-body h-full">
+         <div class="text-center  h-[75vh] flex flex-col items-center justify-center text-white">
+           <div class="mt-[200px] text-center  h-[75vh] flex flex-col items-center justify-center text-white">
+            <p><i class="fa-solid fa-location-dot mx-1"></i>Samarkand, Uzbekistan</p>
           <h1 class="text-8xl max-md:text-5xl capitalize font-playfair mb-4 max-md:mb-2">
             registan square
           </h1>
@@ -14,6 +15,7 @@
             century.
           </p>
           <Button type="button" btnClass="" variant="red">Explore <img src="/public/images/rightarrow.png" alt=""></Button>
+         </div>
         </div>
        </div>
       </div>

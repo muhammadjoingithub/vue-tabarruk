@@ -1,13 +1,14 @@
 <template>
   <div>
     <router-link to="/" class="roiter">
-     <div class="logo-header">
+     <!-- <div class="logo-header justify-center">
                         <img src="/public/images/logosun.svg" alt="">
                         <div class="logo-texts">
                             <h3 class="text1">Tabarruk Ziyorat</h3>
                             <h5 class="text2">Supported by The Ministry of Culture and Tourism</h5>
                         </div>
-                     </div>
+                     </div> -->
+                     <img src="/public/images/headlogo.png" alt="">
       </router-link>
   </div>
 </template>
@@ -24,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     gap: 10px;
 
   }

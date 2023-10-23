@@ -1,7 +1,5 @@
 <template>
-<div class="h-[550px] w-[100%] back-solid">
-    <!-- <img src="/public/images/chapterimg.png" alt=""> -->
-</div>
+<RotateImages/>
 <div class="container about">
     <h3>About us</h3>
     <p>Explore the valuable, historical, and heritage places of Turkic countries through our curated selection of articles, photos, and videos. Discover the beauty of ancient ruins, stunning mosques, medieval fortresses, and intricate tilework, and learn about legendary rulers, artists, and architects who left their mark on the region.</p>
@@ -17,7 +15,6 @@
     </div>
     <Mission/>
     <CCarusel/>
-    <!-- <Ocar/> -->
     <CVideo/>
     <Contact/>
 </template>
@@ -26,10 +23,9 @@ import { reactive } from 'vue'
 import InfoComponent from '@/components/InfoComponent.vue'
 import Mission from '@/components/Mission.vue'
 import CCarusel from '@/components/CCarusel.vue'
-// import Ocar from '@/components/Ocar.vue'
 import CVideo from '@/components/CVideo.vue'
 import Contact from '@/components/Contact.vue'
-
+import RotateImages from '@/components/RotateImages.vue'
 
 
 
@@ -45,13 +41,6 @@ const countryInfo = reactive([
     /* background-color: red; */
     width: 89%;
 }
-.back-solid{
-    background-image: url(/public/images/chapterimg.png);
-    /* position: relative;
-    top: -100px; */
-    /* z-index: -1; */
-}
-
 .about{
     padding: 50px;
     background-image: url(/public/images/vecnew.png);

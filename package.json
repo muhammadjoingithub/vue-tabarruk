@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "flowbite-vue": "^0.0.17",
     "pinia": "^2.1.6",
     "swiper": "^10.3.1",
     "vue": "^3.3.4",
