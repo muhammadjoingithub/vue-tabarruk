@@ -1,53 +1,28 @@
 <template>
-<div class="h-[550px] w-[100%] back-solid">
-    
+<div data-v-fdb8a45c="" class="relative  overflow-hidden w-full h-[200px] lg:h-[550px]" loading="false">
+    <div class="w-full h-full flex   relative">
+        <div class="w-full h-full border-r border-solid border-black -skew-x-[16deg] relative overflow-hidden z-[1]">
+            <img class="w-full h-full absolute skew-x-[16deg] object-cover scale-[2] lg:scale-[1.8] xl:scale-[1.6] opacity-0" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/Xiva_shahri.jpg">
+        </div>
+        <div class="w-full h-full border-r border-solid border-black -skew-x-[16deg] relative overflow-hidden z-[1]">
+            <img class="w-full h-full absolute skew-x-[16deg] object-cover scale-[2] lg:scale-[1.8] xl:scale-[1.6]" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/3003.jpg">
+        </div>
+        <div class="w-full h-full border-r border-solid border-black -skew-x-[16deg] relative overflow-hidden z-[1]">
+            <img class="w-full h-full absolute skew-x-[16deg] object-cover scale-[2] lg:scale-[1.8] xl:scale-[1.6]" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/starry-night-art-plain-820x532.jpg">
+        </div>
+        <div class="w-full h-full border-r border-solid border-black -skew-x-[16deg] relative overflow-hidden z-[1]">
+            <img class="w-full h-full absolute skew-x-[16deg] object-cover scale-[2] lg:scale-[1.8] xl:scale-[1.6]" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about/registan.webp">
+        </div>
+        <div class="w-full h-full border-r border-solid border-black -skew-x-[16deg] relative overflow-hidden z-[1] border-r-[0px]">
+            <img class="w-full h-full absolute skew-x-[16deg] object-cover scale-[2] lg:scale-[1.8] xl:scale-[1.6] opacity-0" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/azerbaijan.jpg">
+        </div>
+        <img class="w-full h-full absolute left-0 max-w-[30%] object-cover" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/Xiva_shahri.jpg">
+        <img class="w-full h-full absolute right-0 max-w-[30%] object-cover" alt="banner-image" lazy="loaded" src="https://admin.tabarrukziyorat.com.uz/media/about_images/azerbaijan.jpg">
+        <div class="w-full h-full absolute inset-0 bg-dark/20 z-[2]"></div>
+    </div>
 </div>
-<!-- <div class="rotating bg-red-900 flex justify-center">
- 
-     <div class="rendr flex bg-red-600  gap-5 " v-for="(index,idx) in RotateImages" :key="idx">
-
-         <img :src="index.img" alt="" class="render">
-    </div>  
-   
-</div> -->
 </template>
 <script lang="ts" setup>
-// import { reactive } from 'vue'
-// const RotateImages = reactive([
-//     // { image: '/public/images/one1.png',  },
-//   { img: 'https://sportishka.com/uploads/posts/2022-04/1650528998_67-sportishka-com-p-yerevan-stolitsa-armenii-dostoprimechateln-70.jpg', },
-//   { img: 'http://pic.rutubelist.ru/video/a7/41/a741247fbfaefbf19bf003ca2dd0a271.jpg', },
-//   { img: 'http://pic.rutubelist.ru/video/a7/41/a741247fbfaefbf19bf003ca2dd0a271.jpg', },
-//   { img: 'https://sportishka.com/uploads/posts/2022-04/1650528998_67-sportishka-com-p-yerevan-stolitsa-armenii-dostoprimechateln-70.jpg', },
-//   { img: 'https://sportishka.com/uploads/posts/2022-04/1650528959_37-sportishka-com-p-yerevan-stolitsa-armenii-dostoprimechateln-38.jpg', },
-//   { img: 'https://almode.ru/uploads/posts/2023-06/1686370116_almode-ru-p-ploshchad-respubliki-g-yerevan-6.jpg', },
-  
-
-  
-
-//   { img: '/public/images/two2.png',  },
-//   { img: '/public/images/two2.png', },
-//   { img: '/public/images/two2.png',  },
-//   { img: '/public/images/two2.png', },
-//   { img: '/public/images/tree3.png',  },
-  
-// ]);
-
 </script>
 <style scoped>
-.back-solid{
-    background-image: url(/public/images/chapterimg.png);
-
-}
-.rendr{
-width: 400px;
-height: 450px;
-transform-origin: top left;
-transform: skew(-0.06turn, 0deg);
-
-}
-.render{
-object-fit: cover;
-   transform: none;
-}
 </style>
