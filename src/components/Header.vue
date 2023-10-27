@@ -13,11 +13,8 @@
            </div>
             <img class="lg" src="/public/images/menu.png" alt="">
           </nav>
-       
-
-        </div>
-        
-      </div>
+    </div>
+   </div>
     </header>
 </template>
 <script setup lang="ts">
